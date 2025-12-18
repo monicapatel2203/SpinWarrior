@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0c2324a9ab1224ebe3edad393e3544, type: 3}
+  m_Name: Zombie_life
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114843963164502492}
+  - {fileID: 114945858165243532}
+  - {fileID: 114654100425817062}
+  editorStates:
+  - {fileID: 114169789327275114}
+  livesInScene: 0
+--- !u!114 &114169789327275114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 11400000}
+  parentEditor: {fileID: 0}
+  drawing: 1
+  selectedNode: {fileID: 0}
+  LivePreviewShaderPath: Assets/card_set.shader
+  ShaderName: card_set
+  ShaderInMemory: {fileID: 4800000, guid: 0da44b5669f4d417ab416688765a8025, type: 3}
+  panOffset: {x: -2215.8477, y: -55.630253}
+  zoom: 2.84
+--- !u!114 &114241078973058928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e7026d0da7df848ab67d517ac12d74, type: 3}
+  m_Name: UV
+  m_EditorClassIdentifier: 
+  body: {fileID: 114654100425817062}
+  side: 2
+  sidePosition: 103.020004
+  sideOffset: 0
+  connections:
+  - {fileID: 114817770533785414}
+  typeID: SuperFloat2
+  calculationBlockade: 0
+--- !u!114 &114306834372802284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: RGBA
+  m_EditorClassIdentifier: 
+  body: {fileID: 114843963164502492}
+  side: 4
+  sidePosition: 53
+  sideOffset: 0
+  connection: {fileID: 114475413489843992}
+  typeID: SuperFloat4
+--- !u!114 &114475413489843992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e7026d0da7df848ab67d517ac12d74, type: 3}
+  m_Name: RGBA
+  m_EditorClassIdentifier: 
+  body: {fileID: 114945858165243532}
+  side: 2
+  sidePosition: 53.02
+  sideOffset: 0
+  connections:
+  - {fileID: 114306834372802284}
+  typeID: SuperFloat4
+  calculationBlockade: 0
+--- !u!114 &114485653806827074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: UV
+  m_EditorClassIdentifier: 
+  body: {fileID: 114654100425817062}
+  side: 4
+  sidePosition: 103.020004
+  sideOffset: 0
+  connection: {fileID: 0}
+  typeID: SuperFloat2
+--- !u!114 &114654100425817062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 187200b4c743d6641ac1d8e6fada99e9, type: 3}
+  m_Name: Animated Zoom UV
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 1819.268
+    y: -227.60974
+    width: 172
+    height: 380
+  nodeKnobs:
+  - {fileID: 114485653806827074}
+  - {fileID: 114241078973058928}
+  Inputs:
+  - {fileID: 114485653806827074}
+  Outputs:
+  - {fileID: 114241078973058928}
+  Variable: 2.256
+  Variable2: 0.5
+  Variable3: 0.5
+  Variable4: 2.231
+  Variable5: 10
+  AddParameters: 1
+  MemoCount: 1
+--- !u!114 &114817770533785414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: UV
+  m_EditorClassIdentifier: 
+  body: {fileID: 114945858165243532}
+  side: 4
+  sidePosition: 53.02
+  sideOffset: 0
+  connection: {fileID: 114241078973058928}
+  typeID: SuperFloat2
+--- !u!114 &114843963164502492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0a24bab1293f04d997dae2ec51c468, type: 3}
+  m_Name: Build Shader
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 2452.28
+    y: -505.56955
+    width: 400
+    height: 520
+  nodeKnobs:
+  - {fileID: 114306834372802284}
+  Inputs:
+  - {fileID: 114306834372802284}
+  Outputs: []
+  BuildErrorFlag: 0
+  BuildLightningSupport: 0
+--- !u!114 &114945858165243532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ec3a51e031a9f42a8eeb9d470525f6, type: 3}
+  m_Name: Main Texture
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 2133.598
+    y: -274.42975
+    width: 148
+    height: 215
+  nodeKnobs:
+  - {fileID: 114817770533785414}
+  - {fileID: 114475413489843992}
+  Inputs:
+  - {fileID: 114817770533785414}
+  Outputs:
+  - {fileID: 114475413489843992}
+  Variable: _MainTex_
+  MemoCount: 1

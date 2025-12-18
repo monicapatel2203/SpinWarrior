@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a7909f11ca52642e3bd1c167e4bc213a
+timeCreated: 1530940863
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FuturaTEE
+  fontNames:
+  - FuturaTEE
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8040b71a7347e42fba712b2e5e6ba7d2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

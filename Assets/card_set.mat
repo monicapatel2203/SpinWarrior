@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: card_set
+  m_Shader: {fileID: 4800000, guid: 0da44b5669f4d417ab416688765a8025, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - PatternMovementPackMask_1:
+        m_Texture: {fileID: 2800000, guid: aba43ff5ecbde4386a731f6ab97080a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - PatternMovementPack_1:
+        m_Texture: {fileID: 2800000, guid: aba43ff5ecbde4386a731f6ab97080a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 30a8fd2b2dee8e54090ff5b729909db2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NewTex_1:
+        m_Texture: {fileID: 2800000, guid: 62c982c1244cd4d3f80a7c5da77451c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NewTex_2:
+        m_Texture: {fileID: 2800000, guid: 2a71ef4e129ab44d4bfc1636951fe303, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SourceNewTex_1:
+        m_Texture: {fileID: 2800000, guid: aba43ff5ecbde4386a731f6ab97080a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SourceNewTex_2:
+        m_Texture: {fileID: 2800000, guid: ef54219fa61d04600852a1240af5dae6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - AnimatedTwistUV_AnimatedTwistUV_Bend_1: 1
+    - AnimatedTwistUV_AnimatedTwistUV_Bend_2: 0
+    - AnimatedTwistUV_AnimatedTwistUV_PosX_1: 0.5
+    - AnimatedTwistUV_AnimatedTwistUV_PosX_2: 0.5
+    - AnimatedTwistUV_AnimatedTwistUV_PosY_1: 0.5
+    - AnimatedTwistUV_AnimatedTwistUV_PosY_2: 0.5
+    - AnimatedTwistUV_AnimatedTwistUV_Radius_1: 0.904
+    - AnimatedTwistUV_AnimatedTwistUV_Radius_2: 0.5
+    - AnimatedTwistUV_AnimatedTwistUV_Speed_1: 10
+    - AnimatedTwistUV_AnimatedTwistUV_Speed_2: 0
+    - AnimatedZoomUV_AnimatedZoomUV_Intensity_1: 2.231
+    - AnimatedZoomUV_AnimatedZoomUV_PosX_1: 0.5
+    - AnimatedZoomUV_AnimatedZoomUV_PosY_1: 0.5
+    - AnimatedZoomUV_AnimatedZoomUV_Speed_1: 10
+    - AnimatedZoomUV_AnimatedZoomUV_Zoom_1: 1.85
+    - OffsetUV_X_1: 1
+    - OffsetUV_Y_1: 0
+    - OffsetUV_ZoomX_1: 1
+    - OffsetUV_ZoomY_1: 4.984
+    - PositionUV_X_1: 0.214
+    - PositionUV_Y_1: -0.3
+    - ResizeUV_X_1: -0.026
+    - ResizeUV_Y_1: 0
+    - ResizeUV_ZoomX_1: 1
+    - ResizeUV_ZoomY_1: 1
+    - ZoomUV_PosX_1: -0.758
+    - ZoomUV_PosY_1: 0.864
+    - ZoomUV_Zoom_1: 1.212
+    - _Add_Fade_1: 0
+    - _CircleFade_Dist_1: 1
+    - _CircleFade_PosX_1: 0.5
+    - _CircleFade_PosY_1: 0.5
+    - _CircleFade_Size_1: 0.3
+    - _ColorMask: 15
+    - _Displacement_Value_1: -0.3
+    - _Displacement_Value_2: 0.05
+    - _Generate_Fire_PosX_1: 0
+    - _Generate_Fire_PosY_1: 0
+    - _Generate_Fire_Precision_1: 0.05
+    - _Generate_Fire_Smooth_1: 0.5
+    - _Generate_Fire_Speed_1: 1.608
+    - _Generate_Voronoi_Seed_1: 1
+    - _Generate_Voronoi_Size_1: 8
+    - _HumanBreat_Intensity_1: 2
+    - _HumanBreat_Speed_1: 3
+    - _Mask2uv_Fade_11: 1
+    - _Mask2uv_Fade_13: 0
+    - _Mask2uv_Fade_15: 0
+    - _Mask2uv_Fade_8: 1
+    - _OperationBlend_Fade_1: 1
+    - _PatternMovementPack_Intensity_1: 1
+    - _PatternMovementPack_MaskIntensity_1: 1
+    - _PatternMovementPack_Speed_1: 3
+    - _PatternMovementPack_ValueX_1: 0
+    - _PatternMovementPack_ValueY_1: 0.188
+    - _PremadeGradients_Fade_1: 1
+    - _PremadeGradients_Offset_1: -0.413
+    - _PremadeGradients_Speed_1: 0
+    - _Sharpness_Angle_1: -1
+    - _Sharpness_Distance_1: -4
+    - _Sharpness_Fade_1: 0
+    - _Sharpness_Intensity_1: -0.586
+    - _Sharpness_original_1: 1
+    - _SpriteFade: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors: []

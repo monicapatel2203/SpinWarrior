@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - EnimyLeft
+  - EnimyRight
+  - EnimyTop
+  - GameOver
+  - Kunai
+  - Shuricon
+  - PowerUp
+  - LeftSide
+  - RightSide
+  - RightSpike
+  - MiddleSpike
+  - LeftSpike
+  - TimeWeapon1
+  - TimeWeapon2
+  - TimeWeapon3
+  - TimeWeapon4
+  - TimeWeapon5
+  - FxTemporaire
+  - TimeWeapon6
+  - TimeWeapon7
+  - TimeWeapon8
+  - TimeWeapon9
+  - TimeWeapon10
+  - TimeWeapon11
+  - TimeWeapon12
+  - TimeWeapon13
+  - TimeWeapon14
+  - TimeWeapon15
+  - TimeWeapon16
+  - WallProtection
+  - GamePlay
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - TimeWeapon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: PausePanel
+    uniqueID: 2914898791
+    locked: 0
